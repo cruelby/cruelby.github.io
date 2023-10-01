@@ -17,19 +17,29 @@
     <link href="./assets/css/modification.css" rel="stylesheet">
 </head>
 
-<body class="presentation-page">
-
+<body class="presentation-page">    
+    <div class="player">
+        <div>
+            <div>
+                <a class="player-icon" href="player/index.html">
+                    <img class="player" src="./assets/img/player.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
     <header class="header-2">
         <div class="page-header min-vh-75 relative">
             <span class="mask bg-gradient-primary"></span>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 text-center mx-auto">
-                        <h1 class="text-white pt-3 mt-n5">🎉 生日快乐！我的眠 🎂 我爱你 ❤️</h1>
+                        <h1 class="text-white pt-3 mt-n5">🎉 生日快乐！我的眠 🎂 我爱你 ❤️ </h1>
                         <p class="lead text-white mt-3">Started from 2000.10.02</p>
                     </div>
                 </div>
             </div>
+
+
             <div class="position-absolute w-100 z-index-1 bottom-0">
                 <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
@@ -49,7 +59,6 @@
             </div>
         </div>
     </header>
-    
     <section class="pt-3 pb-4" id="count-stats">
         <div class="container">
             <div class="row">
@@ -85,6 +94,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container my-5 py-5">
             <div class="row">
                 <div class="row justify-content-center text-center my-n1">
@@ -131,11 +141,22 @@
                         <div class="col-md-6">
                             <a href="">
                                 <div class="card shadow-lg move-on-hover max-height-300">
+                                    <img class="w-100 m-auto" src="./assets/img/xiamen5.jpg" alt="">
+                                </div>
+                                <div class="mt-2 ms-2">
+                                    <h6 class="mb-0">2023.06.10</h6>
+                                    <p class="text-secondary text-sm">小埕戏</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="">
+                                <div class="card shadow-lg move-on-hover max-height-300">
                                     <img class="w-100 m-auto" src="./assets/img/xiamen2.jpg" alt="">
                                 </div>
                                 <div class="mt-2 ms-2">
                                     <h6 class="mb-0">2023.06.10</h6>
-                                    <p class="text-secondary text-sm">小埕戏 鼓浪屿</p>
+                                    <p class="text-secondary text-sm">鼓浪屿</p>
                                 </div>
                             </a>
                         </div>
@@ -203,7 +224,7 @@
             var calendarEl = document.getElementById('calendar');
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 plugins: ['interaction', 'dayGrid'],
-                defaultDate: '2023-09',
+                defaultDate: '2023-10',
                 events: [{
                         title: '我的大美人老婆 🎉 生日快乐！ ❤️ 🎂 🎁',
                         start: '2000-10-02'
@@ -301,6 +322,12 @@
                     },{
                         title: '开心的一天 ❤️',
                         start: '2023-09-12'
+                    },{
+                        title: '大美人老婆和笨蛋晨一起的一个中秋节 👩‍❤️‍👨',
+                        start: '2023-09-29'
+                    },{
+                        title: '大美人老婆和笨蛋晨一起的第一个国庆节 ❤️',
+                        start: '2023-10-01'
                     },{
                         title: '我的大美人老婆 🎉 生日快乐！ ❤️ 🎂 🎁',
                         start: '2023-10-02'

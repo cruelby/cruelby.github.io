@@ -1,0 +1,152 @@
+let songs = [
+  {
+    name: 'lovingu',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: 'lovingu',
+  },
+  {
+    name: '一样的月光',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '一样的月光',
+  },
+  {
+    name: '世界上不存在的歌',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '世界上不存在的歌',
+  },
+  {
+    name: '今夜有雨',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '今夜有雨',
+  },
+  {
+    name: '你+不得不爱',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '你+不得不爱',
+  },
+  {
+    name: '你的珍藏+十年如烟',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '你的珍藏+十年如烟',
+  },
+  {
+    name: '再也不会有人会比我更爱你',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '再也不会有人会比我更爱你',
+  },
+  {
+    name: '再见',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '再见',
+  },
+  {
+    name: '别说',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '别说',
+  },
+  {
+    name: '后继者',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '后继者',
+  },
+  {
+    name: '坠落',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '坠落',
+  },
+  {
+    name: '天下无双',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '天下无双',
+  },
+  {
+    name: '好想好想+人间+天上人间',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '好想好想+人间+天上人间',
+  },
+  {
+    name: '想太多',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '想太多',
+  },
+  {
+    name: '时候',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '时候',
+  },
+  {
+    name: '星光派对',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '星光派对',
+  },
+  {
+    name: '月光下暧昧',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '月光下暧昧',
+  },
+  {
+    name: '没有人不比我快乐',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '没有人不比我快乐',
+  },
+  {
+    name: '爱如火',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '爱如火',
+  },
+  {
+    name: '独到 路过人间',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '独到 路过人间',
+  },
+  {
+    name: '禁区',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '禁区',
+  },
+  {
+    name: '笼 末日飞船 就忘了吧',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '笼 末日飞船 就忘了吧',
+  },
+  {
+    name: '触不可及',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '触不可及',
+  },
+  {
+    name: '风车+百万个吻',
+    artist: 'Icecream',
+    img: 'icon',
+    audio: '风车+百万个吻',
+  },
+  {
+    name: '骗',
+    artist: 'Icecream',
+    img: 'icon',    
+    audio: '骗'
+  }
+]

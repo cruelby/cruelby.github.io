@@ -1,11 +1,23 @@
-.fc-title{
+.fc-title {
 	word-wrap: break-word;
 }
 
-#truth_words p{
+#truth_words p {
 	color: lightpink;
 }
 
-.fc-view-container{
+.fc-view-container {
 	border-radius: 1.5rem;
+}
+
+.player {
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-left: 0px;
+	margin-right: 0px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 2;
 }

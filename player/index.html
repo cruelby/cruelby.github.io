@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id="pagestyle" href="../assets/css/soft-design-system-pro.min.css?v=1.0.9" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link href="../assets/css/modification.css" rel="stylesheet">
+
+    <title>Document</title>
+  </head>
+  <body>
+      <div class="page-header min-vh-75 relative">
+          <span class="mask bg-gradient-primary"></span>
+          <div class="container">
+              <div class="row">
+                <div class="content">
+                  <div class="top-bar">
+                    <span class="material-symbols-rounded">expand_more</span>
+                    <span>Now Playing</span>
+                    <span class="material-symbols-rounded">more_horiz</span>
+                  </div>
+                  <div class="image-wrapper">
+                    <div class="music-image">
+                      <img src="images/img1.jpg" />
+                    </div>
+                  </div>
+                  <div class="music-titles">
+                    <p class="name">6 Shots - NEFFEX</p>
+                    <p class="artist">NEFFEX</p>
+                  </div>
+                  <div class="progress-details">
+                    <div class="progress-bar">
+                      <span></span>
+                    </div>
+                    <div class="time">
+                      <span class="current">0:00</span>
+                      <span class="final">5:30</span>
+                    </div>
+                  </div>
+                  <div class="control-btn">
+                    <span class="material-symbols-rounded" id="repeat">repeat</span>
+                    <span class="material-symbols-rounded" id="prev">skip_previous</span>
+                    <div class="play-pause">
+                      <span class="material-symbols-rounded">play_arrow</span>
+                    </div>
+                    <span class="material-symbols-rounded" id="next">skip_next</span>
+                    <span class="material-symbols-rounded" id="shuffle">shuffle</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="position-absolute w-100 z-index-1 bottom-0">
+              <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+                  <defs>
+                      <path id="gentle-wave"
+                          d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+                  </defs>
+                  <g class="moving-waves">
+                      <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40"></use>
+                      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)"></use>
+                      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)"></use>
+                      <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)"></use>
+                      <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)"></use>
+                      <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,0.95"></use>
+                  </g>
+              </svg>
+          </div>
+      </div>
+
+
+
+    <audio src="music/music1.mp3" class="main-song"></audio>
+
+    <script src="js/playlist.js"></script>
+    <script src="../assets/js/sakura.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
